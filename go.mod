@@ -11,6 +11,7 @@ require (
 	github.com/99designs/keyring v1.2.1
 	github.com/armon/go-metrics v0.4.0
 	github.com/bgentry/speakeasy v0.1.0
+	github.com/btcsuite/btcd v0.22.1
 	github.com/cockroachdb/apd/v2 v2.0.2
 	github.com/coinbase/rosetta-sdk-go v0.7.10
 	github.com/confio/ics23/go v0.7.0
@@ -60,7 +61,7 @@ require (
 	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd
 	google.golang.org/grpc v1.48.0
 	google.golang.org/protobuf v1.28.1
-	pgregory.net/rapid v0.4.8
+	pgregory.net/rapid v0.5.3
 	sigs.k8s.io/yaml v1.3.0
 )
 
