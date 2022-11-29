@@ -3,7 +3,7 @@ module github.com/cosmos/cosmos-sdk/store/tools/ics23
 go 1.18
 
 require (
-	github.com/confio/ics23/go v0.7.0
+	github.com/confio/ics23/go v0.9.0
 	github.com/cosmos/cosmos-sdk v0.46.0
 	github.com/cosmos/iavl v0.19.0
 	github.com/lazyledger/smt v0.2.1-0.20210709230900-03ea40719554
@@ -29,9 +29,9 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
-	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
-	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9 // indirect
-	golang.org/x/sys v0.0.0-20220702020025-31831981b65f // indirect
+	golang.org/x/crypto v0.2.0 // indirect
+	golang.org/x/net v0.2.0 // indirect
+	golang.org/x/sys v0.2.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )
 
