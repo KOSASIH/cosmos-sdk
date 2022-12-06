@@ -32,7 +32,7 @@ jobs:
           go-version: 1.18
       - name: Display go version
         run: go version
-      - uses: technote-space/get-diff-action@v6.1.0
+      - uses: technote-space/get-diff-action@v6.1.2
         with:
           PATTERNS: |
             **/**.go
