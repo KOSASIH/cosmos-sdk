@@ -27,7 +27,7 @@ jobs:
     if: "!contains(github.event.head_commit.message, 'skip-sims')"
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v4
         with:
           go-version: 1.18
       - name: Display go version
@@ -62,7 +62,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v4
         with:
           go-version: 1.18
       - name: Display go version
@@ -80,7 +80,7 @@ jobs:
     needs: [build]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v4
         with:
           go-version: 1.18
       - uses: actions/cache@v3
@@ -97,7 +97,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v4
         with:
           go-version: 1.18
       - uses: actions/cache@v3
