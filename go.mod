@@ -3,7 +3,7 @@ go 1.18
 module github.com/cosmos/cosmos-sdk
 
 require (
-	cosmossdk.io/api v0.1.1-0.20220726092710-f848e4300a8a
+	cosmossdk.io/api v0.3.0
 	cosmossdk.io/core v0.1.0
 	cosmossdk.io/depinject v1.0.0-alpha.1.0.20220726092710-f848e4300a8a
 	cosmossdk.io/errors v1.0.0-beta.7
@@ -16,7 +16,7 @@ require (
 	github.com/coinbase/rosetta-sdk-go v0.8.1
 	github.com/confio/ics23/go v0.7.0
 	github.com/cosmos/btcutil v1.0.4
-	github.com/cosmos/cosmos-proto v1.0.0-alpha7
+	github.com/cosmos/cosmos-proto v1.0.0-beta.1
 	github.com/cosmos/cosmos-sdk/db v1.0.0-beta.1.0.20220726092710-f848e4300a8a
 	github.com/cosmos/cosmos-sdk/store/tools/ics23 v0.0.0-20220726092710-f848e4300a8a
 	github.com/cosmos/go-bip39 v1.0.0
@@ -114,7 +114,7 @@ require (
 	github.com/cosmos/cosmos-db v0.0.0-20220822060143-23a8145386c0 // indirect
 	github.com/cosmos/cosmos-sdk/api v0.1.0 // indirect
 	github.com/cosmos/cosmos-sdk/container v1.0.0-alpha.3 // indirect
-	github.com/cosmos/gogoproto v1.4.3 // indirect
+	github.com/cosmos/gogoproto v1.4.4 // indirect
 	github.com/cosmos/gorocksdb v1.2.0 // indirect
 	github.com/cosmos/ics23/go v0.10.0 // indirect
 	github.com/cosmos/ledger-go v0.9.2 // indirect
