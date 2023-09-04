@@ -22,7 +22,7 @@ jobs:
     runs-on: buildjet-4vcpu-ubuntu-2004
     if: "!contains(github.event.head_commit.message, 'skip-sims')"
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-go@v3
         with:
           go-version: 1.18
@@ -53,7 +53,7 @@ jobs:
     needs: [build, install-runsim]
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: "release/v0.46.x"
       - uses: actions/setup-go@v3
@@ -73,7 +73,7 @@ jobs:
     runs-on: buildjet-4vcpu-ubuntu-2004
     needs: [build, install-runsim]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: "release/v0.46.x"
       - uses: actions/setup-go@v3
@@ -93,7 +93,7 @@ jobs:
     runs-on: buildjet-4vcpu-ubuntu-2004
     needs: [build, install-runsim]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: "release/v0.46.x"
       - uses: actions/setup-go@v3
@@ -116,7 +116,7 @@ jobs:
     if: ${{ success() }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Get previous workflow status
         uses: ./.github/actions/last-workflow-status
