@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/cosmos/cosmos-sdk v0.47.3
 	github.com/hashicorp/go-getter v1.7.1
-	github.com/otiai10/copy v1.7.0
+	github.com/otiai10/copy v1.14.0
 	github.com/rs/zerolog v1.29.1
 	github.com/spf13/cobra v1.6.1
 	github.com/stretchr/testify v1.8.4
@@ -126,6 +126,7 @@ require (
 	golang.org/x/exp v0.0.0-20230515195305-f3d0a9c9a5cc // indirect
 	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/oauth2 v0.6.0 // indirect
+	golang.org/x/sync v0.3.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/term v0.7.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
