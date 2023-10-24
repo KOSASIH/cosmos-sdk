@@ -62,7 +62,7 @@ require (
 	google.golang.org/grpc v1.56.0
 	google.golang.org/protobuf v1.30.0
 	pgregory.net/rapid v1.0.0
-	sigs.k8s.io/yaml v1.3.0
+	sigs.k8s.io/yaml v1.4.0
 )
 
 require (
