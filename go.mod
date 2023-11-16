@@ -29,7 +29,7 @@ require (
 	github.com/golangci/golangci-lint v1.53.3
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/handlers v1.5.1
-	github.com/gorilla/mux v1.8.0
+	github.com/gorilla/mux v1.8.1
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/hashicorp/go-getter v1.6.2
