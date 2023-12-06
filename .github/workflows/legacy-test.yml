@@ -20,7 +20,7 @@ jobs:
         go-arch: ["amd64", "arm", "arm64"]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v5
         with:
           go-version: 1.18
       - name: Build
@@ -41,7 +41,7 @@ jobs:
     container: tendermintdev/docker-tm-db-testing
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v5
         with:
           go-version: 1.18
       - name: Run submodule tests and create test coverage profile.
@@ -55,7 +55,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v5
         with:
           go-version: 1.18
       - name: Create a file with all core Cosmos SDK pkgs
@@ -89,7 +89,7 @@ jobs:
         part: ["00", "01", "02", "03"]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@v5
         with:
           go-version: 1.18
       - uses: actions/download-artifact@v3
