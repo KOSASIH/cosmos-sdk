@@ -151,7 +151,7 @@ jobs:
             ~/.cache/golangci-lint
             ~/.cache/go-build
           key: ${{ runner.os }}-go-build-${{ hashFiles('**/go.sum') }}
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: "${{ github.sha }}-${{ matrix.part }}"
         if: env.GIT_DIFF
@@ -175,23 +175,23 @@ jobs:
             **/**.go
             go.mod
             go.sum
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: "${{ github.sha }}-00-coverage"
         if: env.GIT_DIFF
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: "${{ github.sha }}-01-coverage"
         if: env.GIT_DIFF
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: "${{ github.sha }}-02-coverage"
         if: env.GIT_DIFF
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: "${{ github.sha }}-03-coverage"
         if: env.GIT_DIFF
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: "${{ github.sha }}-go-submodules-coverage"
         if: env.GIT_DIFF
