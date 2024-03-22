@@ -7,13 +7,14 @@ require (
 	cosmossdk.io/core v0.1.0
 	cosmossdk.io/depinject v1.0.0-alpha.1.0.20220726092710-f848e4300a8a
 	cosmossdk.io/errors v1.0.0-beta.7
-	cosmossdk.io/math v1.0.0-beta.3.0.20220726092710-f848e4300a8a
+	cosmossdk.io/math v1.3.0
 	github.com/99designs/keyring v1.2.1
 	github.com/armon/go-metrics v0.4.0
 	github.com/bgentry/speakeasy v0.1.0
 	github.com/btcsuite/btcd v0.22.1
 	github.com/cockroachdb/apd/v2 v2.0.2
-	github.com/coinbase/rosetta-sdk-go v0.8.1
+	github.com/coinbase/rosetta-sdk-go v0.8.4
+	github.com/coinbase/rosetta-sdk-go/types v1.0.0
 	github.com/confio/ics23/go v0.7.0
 	github.com/cosmos/btcutil v1.0.4
 	github.com/cosmos/cosmos-proto v1.0.0-beta.4
@@ -50,7 +51,7 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.12.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	github.com/tendermint/btcd v0.1.1
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15
 	github.com/tendermint/go-amino v0.16.0
@@ -60,9 +61,7 @@ require (
 	golang.org/x/exp v0.0.0-20230510235704-dd950f8aeaea
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
 	google.golang.org/grpc v1.56.0
-	google.golang.org/protobuf v1.32.0
-	pgregory.net/rapid v1.1.0
-	sigs.k8s.io/yaml v1.3.0
+
 )
 
 require (
@@ -129,7 +128,7 @@ require (
 	github.com/dgraph-io/ristretto v0.1.0 // indirect
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
-	github.com/dvsekhvalnov/jose2go v1.5.0 // indirect
+	github.com/dvsekhvalnov/jose2go v1.6.0 // indirect
 	github.com/esimonov/ifshort v1.0.4 // indirect
 	github.com/ettle/strcase v0.1.1 // indirect
 	github.com/fatih/color v1.15.0 // indirect
@@ -265,7 +264,7 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/ssgreg/nlreturn/v2 v2.2.1 // indirect
 	github.com/stbenjam/no-sprintf-host-port v0.1.1 // indirect
-	github.com/stretchr/objx v0.5.0 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/subosito/gotenv v1.4.1 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
 	github.com/t-yuki/gocover-cobertura v0.0.0-20180217150009-aaee18c8195c // indirect
@@ -304,7 +303,6 @@ require (
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/api v0.114.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
