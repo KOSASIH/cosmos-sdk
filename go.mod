@@ -17,7 +17,7 @@ require (
 	github.com/coinbase/rosetta-sdk-go/types v1.0.0
 	github.com/confio/ics23/go v0.7.0
 	github.com/cosmos/btcutil v1.0.4
-
+	github.com/cosmos/cosmos-proto v1.0.0-beta.3
 	github.com/cosmos/cosmos-sdk/db v1.0.0-beta.1.0.20220726092710-f848e4300a8a
 	github.com/cosmos/cosmos-sdk/store/tools/ics23 v0.0.0-20220726092710-f848e4300a8a
 	github.com/cosmos/go-bip39 v1.0.0
@@ -26,7 +26,7 @@ require (
 	github.com/gogo/gateway v1.1.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/mock v1.6.0
-	github.com/golang/protobuf v1.5.3
+	github.com/golang/protobuf v1.5.4
 	github.com/golangci/golangci-lint v1.53.3
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/handlers v1.5.1
@@ -57,6 +57,13 @@ require (
 	github.com/tendermint/go-amino v0.16.0
 	github.com/tendermint/tendermint v0.35.9
 	github.com/tendermint/tm-db v0.6.7
+	golang.org/x/crypto v0.14.0
+	golang.org/x/exp v0.0.0-20230811145659-89c5cff77bcb
+	google.golang.org/genproto/googleapis/api v0.0.0-20230920204549-e6e6cdab5c13
+	google.golang.org/grpc v1.58.3
+	google.golang.org/protobuf v1.33.0
+	pgregory.net/rapid v0.5.5
+	sigs.k8s.io/yaml v1.4.0
 
 )
 
@@ -300,7 +307,8 @@ require (
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/api v0.128.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-
+	google.golang.org/genproto v0.0.0-20231002182017-d307bd883b97 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231009173412-8bfb1ae86b6c // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
