@@ -17,7 +17,7 @@ require (
 	github.com/coinbase/rosetta-sdk-go/types v1.0.0
 	github.com/confio/ics23/go v0.7.0
 	github.com/cosmos/btcutil v1.0.4
-	github.com/cosmos/cosmos-proto v1.0.0-beta.3
+	github.com/cosmos/cosmos-proto v1.0.0-beta.4
 	github.com/cosmos/cosmos-sdk/db v1.0.0-beta.1.0.20220726092710-f848e4300a8a
 	github.com/cosmos/cosmos-sdk/store/tools/ics23 v0.0.0-20220726092710-f848e4300a8a
 	github.com/cosmos/go-bip39 v1.0.0
@@ -62,7 +62,7 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20231106174013-bbf56f31fb17
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.33.0
-	pgregory.net/rapid v0.5.5
+	pgregory.net/rapid v1.1.0
 	sigs.k8s.io/yaml v1.4.0
 
 )
