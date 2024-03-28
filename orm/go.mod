@@ -9,7 +9,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/google/go-cmp v0.6.0
 	github.com/iancoleman/strcase v0.2.0
-	github.com/regen-network/gocuke v1.1.0
+	github.com/regen-network/gocuke v1.1.1
 	github.com/stretchr/testify v1.9.0
 	github.com/tendermint/tm-db v0.6.7
 	google.golang.org/grpc v1.62.1
@@ -24,10 +24,9 @@ require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/cockroachdb/apd/v3 v3.2.1 // indirect
 	github.com/cosmos/gorocksdb v1.2.0 // indirect
-	github.com/cucumber/common/messages/go/v19 v19.1.2 // indirect
-	github.com/cucumber/gherkin/go/v26 v26.2.0 // indirect
-	github.com/cucumber/messages/go/v21 v21.0.1 // indirect
-	github.com/cucumber/tag-expressions/go/v5 v5.0.6 // indirect
+	github.com/cucumber/gherkin/go/v27 v27.0.0 // indirect
+	github.com/cucumber/messages/go/v22 v22.0.0 // indirect
+	github.com/cucumber/tag-expressions/go/v6 v6.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgraph-io/badger/v2 v2.2007.4 // indirect
 	github.com/dgraph-io/ristretto v0.1.0 // indirect
