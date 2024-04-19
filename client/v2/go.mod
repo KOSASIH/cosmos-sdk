@@ -3,7 +3,7 @@ module github.com/cosmos/cosmos-sdk/client/v2
 go 1.18
 
 require (
-	github.com/cosmos/cosmos-proto v1.0.0-beta.4
+	github.com/cosmos/cosmos-proto v1.0.0-beta.5
 	github.com/cosmos/cosmos-sdk/api v0.1.0
 	github.com/iancoleman/strcase v0.2.0
 	github.com/spf13/cobra v1.5.0
