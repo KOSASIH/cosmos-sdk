@@ -74,8 +74,8 @@ cloud.google.com/go/storage v1.14.0/go.mod h1:GrKmX003DSIwi9o29oFT7YDnHYwZoctc3f
 cloud.google.com/go/storage v1.35.1 h1:B59ahL//eDfx2IIKFBeT5Atm9wnNmj3+8xG/W4WB//w=
 cloud.google.com/go/storage v1.35.1/go.mod h1:M6M/3V/D3KpzMTJyPOR/HU6n2Si5QdaXYEsng2xgOs8=
 contrib.go.opencensus.io/exporter/stackdriver v0.13.4/go.mod h1:aXENhDJ1Y4lIg4EUaVTwzvYETVNZk10Pu26tevFKLUc=
-cosmossdk.io/api v0.7.3 h1:V815i8YOwOAQa1rLCsSMjVG5Gnzs02JLq+l7ks8s1jk=
-cosmossdk.io/api v0.7.3/go.mod h1:IcxpYS5fMemZGqyYtErK7OqvdM0C8kdW3dq8Q/XIG38=
+cosmossdk.io/api v0.7.5 h1:eMPTReoNmGUm8DeiQL9DyM8sYDjEhWzL1+nLbI9DqtQ=
+cosmossdk.io/api v0.7.5/go.mod h1:IcxpYS5fMemZGqyYtErK7OqvdM0C8kdW3dq8Q/XIG38=
 cosmossdk.io/core v0.1.0 h1:aQ7BMt+74WUHlIBGDHyYDeojU7KoGXRf+iM0aaXMn84=
 cosmossdk.io/core v0.1.0/go.mod h1:HbNfxUJxzj1StpRRXj5abDyD8FQnUuXAnIAtbSxjUEg=
 cosmossdk.io/depinject v1.0.0-alpha.1.0.20220726092710-f848e4300a8a h1:yXENAEjWJpWUlvxFjNbEFkE+tyHSQKYJrh7nJl3uGZ4=
