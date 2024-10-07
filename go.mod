@@ -61,7 +61,7 @@ require (
 	golang.org/x/exp v0.0.0-20240103183307-be819d1f06fc
 	google.golang.org/genproto/googleapis/api v0.0.0-20231106174013-bbf56f31fb17
 	google.golang.org/grpc v1.59.0
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.35.1
 	pgregory.net/rapid v1.1.0
 	sigs.k8s.io/yaml v1.4.0
 
