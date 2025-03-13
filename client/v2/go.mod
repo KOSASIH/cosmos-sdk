@@ -7,7 +7,7 @@ require (
 	github.com/cosmos/cosmos-sdk/api v0.1.0
 	github.com/iancoleman/strcase v0.2.0
 	github.com/spf13/cobra v1.5.0
-	github.com/spf13/pflag v1.0.5
+	github.com/spf13/pflag v1.0.6
 	google.golang.org/grpc v1.62.1
 	google.golang.org/protobuf v1.33.0
 	gotest.tools/v3 v3.5.1
