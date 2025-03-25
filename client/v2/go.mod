@@ -1,6 +1,7 @@
 module github.com/cosmos/cosmos-sdk/client/v2
 
 go 1.18
+toolchain go1.24.1
 
 require (
 	github.com/cosmos/cosmos-proto v1.0.0-beta.4
@@ -9,7 +10,7 @@ require (
 	github.com/spf13/cobra v1.5.0
 	github.com/spf13/pflag v1.0.5
 	google.golang.org/grpc v1.62.1
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.36.6
 	gotest.tools/v3 v3.5.1
 )
 
