@@ -7,7 +7,7 @@ require (
 	cosmossdk.io/core v0.11.3
 	cosmossdk.io/depinject v1.2.0
 	cosmossdk.io/math v1.5.3
-	cosmossdk.io/x/tx v0.14.0
+	cosmossdk.io/x/tx v1.1.0
 	github.com/cockroachdb/errors v1.12.0
 	github.com/cosmos/cosmos-proto v1.0.0-beta.5
 	github.com/cosmos/cosmos-sdk v0.53.0
