@@ -20,7 +20,7 @@ jobs:
     outputs:
       git_diff: ${{ steps.git_diff.outputs.diff }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-tags: true
       - uses: actions/setup-go@v5
@@ -47,7 +47,7 @@ jobs:
     if: needs.setup.outputs.git_diff
     runs-on: depot-ubuntu-22.04-4
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Run system tests
         run: |
           make test-system
@@ -57,7 +57,7 @@ jobs:
     if: needs.setup.outputs.git_diff
     runs-on: depot-ubuntu-22.04-4
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Run legacy system tests
         run: |
           COSMOS_BUILD_OPTIONS=legacy make test-system

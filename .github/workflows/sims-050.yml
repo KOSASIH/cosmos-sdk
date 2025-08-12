@@ -19,7 +19,7 @@ jobs:
     runs-on: depot-ubuntu-22.04-4
     if: "!contains(github.event.head_commit.message, 'skip-sims')"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: "release/v0.50.x"
       - uses: actions/setup-go@v5
@@ -50,7 +50,7 @@ jobs:
     needs: [build, install-runsim]
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: "release/v0.50.x"
       - uses: actions/setup-go@v5
@@ -69,7 +69,7 @@ jobs:
     runs-on: depot-ubuntu-22.04-4
     needs: [build, install-runsim]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: "release/v0.50.x"
       - uses: actions/setup-go@v5
@@ -88,7 +88,7 @@ jobs:
     runs-on: depot-ubuntu-22.04-4
     needs: [build, install-runsim]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: "release/v0.50.x"
       - uses: actions/setup-go@v5
@@ -109,7 +109,7 @@ jobs:
     runs-on: depot-ubuntu-22.04-4
     if: ${{ success() }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Get previous workflow status
         uses: ./.github/actions/last-workflow-status
         id: last_status
