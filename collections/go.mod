@@ -9,7 +9,7 @@ require (
 	github.com/google/go-cmp v0.6.0
 	github.com/stretchr/testify v1.10.0
 	github.com/tidwall/btree v1.7.0
-	google.golang.org/protobuf v1.36.6
+	google.golang.org/protobuf v1.36.8
 	pgregory.net/rapid v1.2.0
 )
 
